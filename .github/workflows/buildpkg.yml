@@ -1,5 +1,6 @@
 name: Build and upload Arch Linux packages
 on:
+  workflow_dispatch:
   push:
     tags:
       - '**'
